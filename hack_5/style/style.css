@@ -1,0 +1,47 @@
+:root{
+    --bg-blue:#93B5C9;
+    --bg-wine:#AB2849;
+}
+body {
+  font-family: Arimo, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, p {
+  color: #333; 
+}
+
+.green-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #7ED957;
+  margin: 0 auto;
+}
+
+.green-stripe {
+  background-color: #00BF63;
+ 
+}
+
+footer {
+  background-color: #00BF63;
+  color: #EEEEEE;
+  padding: 10px;
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  
+  .container {
+    max-width: 90%;
+  }
+}

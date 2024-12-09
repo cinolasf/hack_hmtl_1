@@ -1,0 +1,54 @@
+:root{
+--bg-blue:#93B5C9;
+--bg-wine:#AB2849;
+
+  }
+
+  *{
+    margin: 0px ;
+    padding: 0px;
+  }
+
+  .container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .header {
+    height: 70px;
+    width: 100%;
+    background-color: var(--bg-blue)
+    
+  }
+  
+  .menu {
+
+    width: 100%;
+    height: 100px;
+    background-color: var(--bg-wine);
+  }
+  
+  .menu-item {
+    
+    width: 80%;
+    height: 80px;
+    background-color: var(--bg-wine);
+    margin-top: 30px;
+    margin-left: auto;
+  }
+
+  .footer{
+    position: absolute ;
+    bottom: 0px ;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:var(--bg-wine);
+    height: 80px;
+    width: 80%;
+
+
+
+  }
+  
+  
